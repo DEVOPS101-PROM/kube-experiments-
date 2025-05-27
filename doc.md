@@ -16,7 +16,7 @@ gcloud container clusters create my-cluster \
   --docker-server=ghcr.io\
   --docker-username=Tirtxika \
   --docker-password=$PAT \
-3. 
+3. ghcr.io/devops101-prom/simple-version:v1.0.0 {v2.0.0}
 ```
 apiVersion: v1
 kind: ServiceAccount
