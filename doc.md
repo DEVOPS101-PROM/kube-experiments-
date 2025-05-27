@@ -1,4 +1,5 @@
-** G-cloud cluster create
+** G-cloud cluster create **
+```
 gcloud container clusters create my-cluster \
 --region europe-north1 \
 --num-nodes 2 \
@@ -8,7 +9,7 @@ gcloud container clusters create my-cluster \
 --zone europe-north1-c \
 --tags=http-server,https-server \
 --spot
-
+```
 *** Kubernetes secret for regisry
 1. read -s PAT
 2. kubectl create secret docker-registry ghcr-secret \
